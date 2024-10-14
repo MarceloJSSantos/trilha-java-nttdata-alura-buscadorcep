@@ -1,4 +1,4 @@
-package modelos;
+package br.com.alura.mjss.buscadorcep.modelos;
 
 public record Endereco(String cep,
                        String logradouro,

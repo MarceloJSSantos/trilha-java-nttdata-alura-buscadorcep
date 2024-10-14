@@ -1,13 +1,11 @@
-import com.google.gson.JsonSyntaxException;
-import modelos.Endereco;
+import br.com.alura.mjss.buscadorcep.modelos.Endereco;
+import br.com.alura.mjss.buscadorcep.utilitarios.BuscaCep;
+import br.com.alura.mjss.buscadorcep.utilitarios.GeraArquivoJson;
 
 import java.io.IOException;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 import java.util.Scanner;
 
-public class main {
+public class BuscadorCep {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 

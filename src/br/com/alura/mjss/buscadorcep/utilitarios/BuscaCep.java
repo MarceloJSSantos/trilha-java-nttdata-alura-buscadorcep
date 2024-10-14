@@ -1,6 +1,8 @@
+package br.com.alura.mjss.buscadorcep.utilitarios;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import modelos.Endereco;
+import br.com.alura.mjss.buscadorcep.modelos.Endereco;
 
 import java.net.URI;
 import java.net.URLEncoder;
