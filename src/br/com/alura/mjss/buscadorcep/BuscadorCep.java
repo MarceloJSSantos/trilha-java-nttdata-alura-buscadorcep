@@ -1,3 +1,5 @@
+package br.com.alura.mjss.buscadorcep;
+
 import br.com.alura.mjss.buscadorcep.modelos.Endereco;
 import br.com.alura.mjss.buscadorcep.utilitarios.BuscaCep;
 import br.com.alura.mjss.buscadorcep.utilitarios.GeraArquivoJson;
